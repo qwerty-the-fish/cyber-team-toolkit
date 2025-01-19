@@ -25,6 +25,7 @@ With so many useful tools out there, it can be challenging to know where to begi
 - [apktool](https://apktool.org/) - for reverse-engineering Android APKs
     - a useful tip pointed out to me recently: `unzip someapkfile.apk` sort of works as well
 - [gdb](https://sourceware.org/gdb/) - CLI GNU-project debugger
+- [checksec](https://github.com/slimm609/checksec) - bash script to check the properties of executables (like PIE, RELRO, Canaries, ASLR, Fortify Source)
 
 ## Network Exploitation
 - [Burp Suite](https://portswigger.net/burp) - analyse network traffic and intercept/inspect/alter/drop/etc. packets
