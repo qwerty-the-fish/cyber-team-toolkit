@@ -45,6 +45,7 @@ With so many useful tools out there, it can be challenging to know where to begi
 - [bkcrack](https://github.com/kimci86/bkcrack/tree/master) - exploiting password protected ZIP files
     - uses Biham and Kocher's known plaintext attack on the PKZIP stream cipher ([paper outlining the attack](https://doi.org/10.1007/3-540-60590-8_12))
     - useful tutorial page: https://github.com/kimci86/bkcrack/blob/master/example/tutorial.md
+- [binwalk](https://github.com/ReFirmLabs/binwalk) - analyse a file and search for potential embedded files
 
 ### Images / Audio
 - [Aperi'Solve](https://aperisolve.fr/) - great tool for image analysis
