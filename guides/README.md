@@ -12,3 +12,4 @@ Feel free to add to any existing guide - or create your own! It doesn't have to 
 ## Current Guides
  - [Networks](https://github.com/qwerty-the-fish/cyber-team-toolkit/blob/main/guides/networks.md)
  - [OSINT](https://github.com/qwerty-the-fish/cyber-team-toolkit/blob/main/guides/osint.md)
+ - [Android APK Reversal](https://github.com/qwerty-the-fish/cyber-team-toolkit/blob/main/guides/android_apk.md)
