@@ -66,6 +66,7 @@ With so many useful tools out there, it can be challenging to know where to begi
 - [dcode: cipher identifier](https://www.dcode.fr/cipher-identifier) - attempts to identify the cipher used with varying success
 - [Cipher Identifier](https://www.boxentriq.com/code-breaking/cipher-identifier) - also attempts to identify the cipher used with varying success
 - [dcode: Caesar cipher solver](https://www.dcode.fr/caesar-cipher) - tries all possible shifts and highlights the most likely ones
+- [Crackstation](https://crackstation.net/) - password hash cracker
 
 ## OSINT
 - [OSINT Framework](https://osintframework.com/) - an incredible collection of OSINT tools
