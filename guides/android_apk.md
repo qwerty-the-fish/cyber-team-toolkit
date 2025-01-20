@@ -74,4 +74,15 @@ APK (ZIP archive)
 └── resources.arsc
 ```
 
-## Tools
+## Actions
+
+### Install the APK on your Android device
+- connect to the device via `adb` (make sure `USB debugging` is enabled)
+- `adb install [PATH-TO-APK]` - e.g. `adb install file.apk`
+
+### Decode the `.apk` file using `apktool`
+- decode the `.apk` file and store the extracted files in the specified directory
+- `apktool d [PATH-TO-APK] -o [PATH-TO-OUTPUT-DIRECTORY]` - e.g. `apktool d file.apk -o decoded_files`
+
+### Convert the `.apk` file to `.jar` format
+- the advantage of converting to the `.jar` format is that we can then use `jd-gui` to view the Java code
