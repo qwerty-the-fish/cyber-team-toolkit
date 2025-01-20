@@ -8,6 +8,12 @@ Inspired by GCHQ's open-source project CyberChef, the goal is to create a reposi
 
 Chances are there's just the tool you're looking for out there, but without the right pointer from a teammate or stumbling across the perfect writeup, you may never come across it. This project hopes to solve this problem.
 
+## Pages
+- [Writeups](https://github.com/qwerty-the-fish/cyber-team-toolkit/blob/main/writeups.md)
+- [Trainings and Certifications](https://github.com/qwerty-the-fish/cyber-team-toolkit/blob/main/trainings_and_certifications.md)
+- [Tools](https://github.com/qwerty-the-fish/cyber-team-toolkit/tree/main/tools)
+- [Guides](https://github.com/qwerty-the-fish/cyber-team-toolkit/tree/main/guides)
+
 ## The Goal
 
 As you can tell, there isn't much content here at the moment. The goal is to change that though!
