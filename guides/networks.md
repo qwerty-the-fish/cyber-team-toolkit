@@ -3,7 +3,8 @@
 A CTF challenge might give you a network address (port optional) and ask you to find the flag. So where do you begim?
 
 ## I have a port number
-If the port provided is one of the commonly used ones, this might give a hint as to your next steps - lookup the common uses for the port provided (https://www.geeksforgeeks.org/50-common-ports-you-should-know/).#
+If the port provided is one of the commonly used ones, this might give a hint as to your next steps - lookup the common uses for the port provided (https://www.geeksforgeeks.org/50-common-ports-you-should-know/).
+
 However, the port number may not be a commonly used one and therefore not give us any hints.
 
 Some examples might be:
