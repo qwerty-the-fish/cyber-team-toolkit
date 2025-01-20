@@ -73,3 +73,9 @@ With so many useful tools out there, it can be challenging to know where to begi
 - [WhoIs](http://whois.domaintools.com/) - domain lookup tool, for availability and ownership details
 - [Shodan](https://www.shodan.io/) - search engine for Internet-connected devices
 - [OSINT Start.me](https://start.me/p/p6Noje/osint) - a comprehensive collection of OSINT tools covering data breaches, social media, and public records
+- [Mailinator](https://www.mailinator.com/) - temporary email service, allowing for one-time communication and registration
+- [Hootsuite](https://www.hootsuite.com/), [Buffer](https://buffer.com/), and [TweetDeck](https://github.com/dimdenGD/OldTweetDeck) - all provide centralised social media management, allowing you to monitor comments/DMs/interactions and schedule posts in one-place
+- [ThisPersonDoesNotExist](ThisPersonDoesNotExist.com) - AI-generated profile pictures to use for creating profiles
+- [Fake Name Generator](https://www.fakenamegenerator.com/) - creates entire fake personalities with names, addresses, login details, DOBs, physical descriptors, and much much more...
+- Fake likes/follows/shares tools - with the increased focus on bot identification, these are becoming less popular and more unreliable - you run the risk of having your account deactivated for having fake followers, or someone might become suspicious and use one of many tools available to check if you have fake followers
+- [Ivory - RIP TweetBot](https://tapbots.com/ivory/) - can be used to mimic human behaviour when it comes to running a Twitter (X) account - still in early development however, and currently only available for use on Apple products
