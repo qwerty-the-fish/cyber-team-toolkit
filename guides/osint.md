@@ -69,4 +69,4 @@
 - maintaining several sock puppets can be time-consuming and resource-intensive - all accounts must exhibit normal behaviour as any unusual patterns may reveal them to be fake
 
 ## Useful Tools
-[A list of useful OSINT tools can be found here](https://github.com/qwerty-the-fish/cyber-team-toolkit/edit/main/tools/all_tools.md#osint).
+[A list of useful OSINT tools can be found here](https://github.com/qwerty-the-fish/cyber-team-toolkit/blob/main/tools/all_tools.md#osint).
