@@ -12,7 +12,7 @@ With so many useful tools out there, it can be challenging to know where to begi
 - [msfvenom](https://github.com/rapid7/metasploit-framework) - part of metasploit, generates one-liner commands for reverse shell creation
     - documentation: https://www.offsec.com/metasploit-unleashed/msfvenom/
 - [GTFOBins](https://gtfobins.github.io/) - a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems
-- [Android Debugging Bridge](https://developer.android.com/tools/adb) - CLI tool that lets you communicate with an Android device
+- [Android Debug Bridge](https://developer.android.com/tools/adb) - CLI tool that lets you communicate with an Android device
     - [additional information](https://github.com/qwerty-the-fish/cyber-team-toolkit/blob/main/tools/adb.md)
 
 ## Web Exploitation
