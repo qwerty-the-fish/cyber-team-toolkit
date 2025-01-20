@@ -10,3 +10,4 @@ Lots of resources means lots of curated collections. Here are some that come hig
 - [Shiva108 - CTF-notes](https://github.com/Shiva108/CTF-notes)
 - [cugu - awesome-forensics](https://github.com/cugu/awesome-forensics)
 - [fabacab - awesome-security-blueteam](https://github.com/fabacab/awesome-cybersecurity-blueteam)
+- [andreafortuna - Android app reversal and pentesting tools](https://andreafortuna.org//2019/07/18/reverse-engineering-and-penetration-testing-on-android-apps-my-own-list-of-tools/)
