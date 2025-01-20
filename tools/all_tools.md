@@ -26,9 +26,12 @@ With so many useful tools out there, it can be challenging to know where to begi
 - [Ghidra](https://ghidra-sre.org/) - really useful for reverse engineering a binary
 - [apktool](https://apktool.org/) - for reverse-engineering Android APKs
     - a useful tip pointed out to me recently: `unzip someapkfile.apk` sort of works as well
+    - converts `classes.dex` into the intermediary language `smali`
 - [gdb](https://sourceware.org/gdb/) - CLI GNU-project debugger
 - [checksec](https://github.com/slimm609/checksec) - bash script to check the properties of executables (like PIE, RELRO, Canaries, ASLR, Fortify Source)
 - [jadx-gui](https://github.com/skylot/jadx) - dex to java decompiler
+    - [feature overview](https://github.com/skylot/jadx/wiki/jadx-gui-features-overview)
+- [dex2jar](https://github.com/pxb1988/dex2jar) - tools to work with Android `.dex` files and Java 
 
 ## Network Exploitation
 - [Burp Suite](https://portswigger.net/burp) - analyse network traffic and intercept/inspect/alter/drop/etc. packets
