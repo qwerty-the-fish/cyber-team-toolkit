@@ -21,3 +21,25 @@
 - `adb install [APK-PATH]` - install an apk on your connected Android device
 - `adb pull [REMOTE-PATH] [LOCAL-PATH]` - copy a file/directory from the device
 - `adb push [LOCAL-PATH] [REMOTE-PATH]` - copy a file/directory to the device
+
+### Logcat
+
+> [Android developer documentation - logcat](https://developer.android.com/tools/logcat)
+
+- `adb logcat` or `adb shell logcat`
+- **tag** - short string - the origin of where the message originates
+- **priority**
+  - `V` / `Verbose` (lowest priority)
+  - `D` / `Debug`
+  - `I` / `Info`
+  - `W` / `Warning`
+  - `E` / `Error`
+  - `F` / `Fatal`
+  - `S` / `Silent` (highest priority - nothing is printed)
+- we can filter by **tag** and **priority** by using the format `TAG:PRIORITY`
+  - e.g. `adb logcat ActivityManager:I MyApp:D *:S`
+    - `ActivityManager:I` - display log messages with `ActivityManager` at level `Info` or above
+    - `MyApp:D` - display log messages with `MyApp` at level `Debug` or above
+    - `*:S` - sets priority level for all other tags to `Silent` - only log messages with `MyApp` and `ActivityManager` are displayed
+ 
+
