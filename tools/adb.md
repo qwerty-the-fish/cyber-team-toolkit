@@ -27,7 +27,9 @@
 > [Android developer documentation - logcat](https://developer.android.com/tools/logcat)
 
 - `adb logcat` or `adb shell logcat`
+
 - **tag** - short string - the origin of where the message originates
+  
 - **priority**
   - `V` / `Verbose` (lowest priority)
   - `D` / `Debug`
@@ -36,10 +38,11 @@
   - `E` / `Error`
   - `F` / `Fatal`
   - `S` / `Silent` (highest priority - nothing is printed)
-- we can filter by **tag** and **priority** by using the format `TAG:PRIORITY`
-  - e.g. `adb logcat ActivityManager:I MyApp:D *:S`
-    - `ActivityManager:I` - display log messages with `ActivityManager` at level `Info` or above
-    - `MyApp:D` - display log messages with `MyApp` at level `Debug` or above
-    - `*:S` - sets priority level for all other tags to `Silent` - only log messages with `MyApp` and `ActivityManager` are displayed
+    
+- we can filter by **tag** and **priority** by using the format `TAG:PRIORITY` - e.g. `adb logcat ActivityManager:I MyApp:D *:S`
+
+  - `ActivityManager:I` - display log messages with `ActivityManager` at level `Info` or above
+  - `MyApp:D` - display log messages with `MyApp` at level `Debug` or above
+  - `*:S` - sets priority level for all other tags to `Silent` - only log messages with `MyApp` and `ActivityManager` are displayed
  
 
