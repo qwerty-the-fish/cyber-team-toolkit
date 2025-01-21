@@ -32,6 +32,7 @@ With so many useful tools out there, it can be challenging to know where to begi
 - [jadx-gui](https://github.com/skylot/jadx) - dex to java decompiler
     - [feature overview](https://github.com/skylot/jadx/wiki/jadx-gui-features-overview)
 - [dex2jar](https://github.com/pxb1988/dex2jar) - tools to work with Android `.dex` files and Java 
+- [Bytecode Viewer](https://bytecodeviewer.com/) - open-source java reverse engineering suite (lets you see the Java and smali code side-by-side)
 
 ## Network Exploitation
 - [Burp Suite](https://portswigger.net/burp) - analyse network traffic and intercept/inspect/alter/drop/etc. packets
