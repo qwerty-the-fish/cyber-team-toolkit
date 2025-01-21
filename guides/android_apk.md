@@ -85,4 +85,13 @@ APK (ZIP archive)
 - `apktool d [PATH-TO-APK] -o [PATH-TO-OUTPUT-DIRECTORY]` - e.g. `apktool d file.apk -o decoded_files`
 
 ### Convert the `.apk` file to `.jar` format
-- the advantage of converting to the `.jar` format is that we can then use `jd-gui` to view the Java code
+- we can use the `dex2jar` tools here to convert between the two formats
+- `d2j-dex2jar [PATH-TO-APK] -o [OUTPUT-JAR-PATH]` - e.g. `d2j-dex2jar unknown_file.apk -o java_file.jar`
+
+### Execute a `.jar` file
+- `java -jar [PATH-TO-JAR` - e.g. `java -jar /programs/java_file.jar`
+
+### View the `.apk` file
+- `jadx-gui` is a great way to view the various classes and strings within the `.apk` file
+- or you can use `Bytecode Viewer`
+- or `jd-gui`
