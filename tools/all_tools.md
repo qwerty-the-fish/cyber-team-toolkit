@@ -14,6 +14,7 @@ With so many useful tools out there, it can be challenging to know where to begi
 - [GTFOBins](https://gtfobins.github.io/) - a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems
 - [Android Debug Bridge](https://developer.android.com/tools/adb) - CLI tool that lets you communicate with an Android device
     - [additional information](https://github.com/qwerty-the-fish/cyber-team-toolkit/blob/main/tools/adb.md)
+- [Frida](https://frida.re/) - dynamic instrumentation toolkit for interacting with black box processes  
 
 ## Web Exploitation
 - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/) - an amazing collection of payloads and bypasses for web exploitation
