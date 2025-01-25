@@ -55,6 +55,25 @@ This can help us to narrow down the type of cipher. Assume for the purpose of th
 - the plaintext `e` might map to letters `f`, `o`, and `x` - but the letter `x` might also map to `h`
 - therefore frequency analysis is no longer useful as we cannot say with any certainty now that the most frequent plaintext letter is the correct mapping to `e`
 
+### Index of Coincidence
+
+Very similar to `entropy`, we can use the `Index of Coincidence (IoC)` to determine whether the distribution of letters is similar or not to the English language (or other languages).
+
+[dcode - index of coincidence calculator](https://www.dcode.fr/index-coincidence)
+
+- `0.0667` - English language
+
+- `~0.070` - ciphertext similar to plaintext
+    - **transposition cipher** - where letter positions have been changed, but the characters used in the plaintext and the ciphertext are identical
+
+    - **monoalphabetic substitution cipher** - where letters have been replaced with alternative letters (i.e. Caesar cipher)
+
+- `~0.0385` - ciphertext appears to be random
+    - **polyalphabetic cipher** - where a plaintext letter has been replaced by multiple alternative letters (e.g. Vigenère cipher)
+
+    - generally, the lower the IoC value, the more alphabets used
+
+
 ## I've Identified the Category ... Now What?
 
 ### Frequency Analysis: Letters
@@ -129,7 +148,7 @@ Perhaps more importantly however is the corpus on which the study is completed -
 
 ---
 
-**Example:**
+### Example
 
 Imagine comparing the results of frequency analysis performed on three sources:
 - a scientific research paper on a Biology topic,
@@ -144,61 +163,20 @@ The transcripts of student's conversations however will be very different from t
 
 - e.g. `pleaassseeeeee` instead of `please`
 
----
-
-Let's go back to the example substitution cipher that we were solving earlier.
-
-> gsrh rh zm EcznkoE lu z hfyhgrgfgrlm xrksEi dsEiE gsE zokszyEg szh yEEm iEeEihEw
-
-- we have the advantage of the spaces not being removed, so we can easily identify the occurance of whole bigrams and trigrams
-
-- we know that the plaintext letter `T` is likely to be one of `g`, `s`, `h`, and `z` as these are the next most frequent letters in our ciphertext
-
-    - we can rule out `z` as this would require `lu z hfyhgrgfgrlm` to have a singular `T` as a word, which isn't part of the English language
-
-    - looking at the trigrams gives us a clue - `dsEiE -->> gsE <<-- zokszyEg`
-
-    - we know that it ends with the plaintext letter `E`, and might begin with `T` - how about the word `THE`?
-
-    - a quick look over the rest of the ciphertext supports this - so lets give it a try
-
-    - we are assuming here that `g = T` and `s = H`
-
-> THrh rh zm EcznkoE lu z hfyhTrTfTrlm xrkHEi dHEiE THE zokHzyEg Hzh yEEm iEeEihEw
-
-- the next most frequent plaintext letter should be `A` - and we know that it is most likely one of the remaining letters that we identified as not being `T` or `H` - i.e. `h` or `z`
-
-    - if assume that `h` is the plaintext letter `A` we end up with words such as `rA` and `AfyATrTfTrlm` which isn't looking very useful
-
-    - on the other hand, assuming that `z` is the letter `A` gives us words such as `A`, `Am`, `AokHAyEg`
-
-- this leaves `h` - could this be the plaintext letter `O`?
-
-    - it fits for ciphertext words like `rh` as this could be `SO` (can't be `TO` as we've already identified `T`)
-
-    - however `HzO` indicates this might not be right - can you think of any English trigrams that start with `H` and end with `O`?
-
-> THrh rh Am EcznkoE lu A hfyhTrTfTrlm xrkHEi dHEiE THE AokHAyEg HAh yEEm iEeEihEw
-
-- this is where we can play around a bit with common sense and bigram/trigram analysis
-
-    - take `THrh rh` - we have the ciphertext bigram `rh` in both words
-
-    - with `E` and `A` already allocated, our potential options for `THrh` are limited (e.g. `THEY`, `THEN`, `THAN`)
-
-    - how about `IS` - we would then get `THIS IS` - looks like we might be right!
-
-    - this gives us two new letter mappings: `r = I`, and `h = S`
-
-> THIS IS Am EcznkoE lu A SfySTITfTIlm xIkHEi dHEiE THE AokHAyEg HAS yEEm iEeEiSEw
-
-> `THIS`, `IS`, `A-`, `E-----E`, `--`, `A`, `S--STIT-TI--`, `-I-HE-`, `-HE-E`, `THE`, `A--HA-E-`, `HAS`, `-EE-`, `-E-E-SE-`
-
-- Can you figure out the rest?
-
-- **Clue**: the name of this cipher appears in the plaintext
- 
-
 ### Chi-Squared Analysis
 *Most useful for shift ciphers.*
+
+Used to compare the distribution of characters in the ciphertext against the expected distribution of the plaintext ([Southampton University - chi squared tool](https://www.southampton.ac.uk/~wright/1001/chi-squared-test.html)).
+
+[CryptoCrack - chi squared calculator](https://sites.google.com/site/cryptocrackprogram/user-guide/statistics-tab/chi-square)
+
+The **lower the score, the better fit** to the expected distribution (frequency).
+
+#### Solving a Vigenère Cipher
+
+A Vigenère cipher requires you to effectively solve multiple Caesar ciphers.
+
+Unlike solving a monoalphabetic cipher (single Caesar cipher), where trying every possible shift will eventually give you the decrypted plaintext (which we can visibly confirm as it will be readable!), we need to identify the correct Caesar cipher shift for each alphabet without being able to visibly identify this.
+
+This is where chi-squared analysis comes in handy - as we can identify the shift with the lowest score, and this is likely to be the correct shift for each alphabet.
 
