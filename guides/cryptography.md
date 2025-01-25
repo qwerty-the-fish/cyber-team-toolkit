@@ -148,7 +148,7 @@ Perhaps more importantly however is the corpus on which the study is completed -
 
 ---
 
-### Example
+#### Example
 
 Imagine comparing the results of frequency analysis performed on three sources:
 - a scientific research paper on a Biology topic,
@@ -162,6 +162,8 @@ The Sunday newspaper will have more colloquial phrasing, likely using contractio
 The transcripts of student's conversations however will be very different from the previous two sources. Abbreviations will be used throughout, as the language will be very informal, with acronyms used instead to save time. However, there'll also be an increase in particular letters, as the last letteers in words are often repeated to make a point or soften the tone of the message.
 
 - e.g. `pleaassseeeeee` instead of `please`
+
+---
 
 ### Chi-Squared Analysis
 *Most useful for shift ciphers.*
