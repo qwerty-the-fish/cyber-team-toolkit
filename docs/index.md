@@ -1,12 +1,8 @@
 # Home
 
-This project aims to create a community-driven hub for cyber security enthusiasts at any level.
+Inspired by GCHQ's open-source project CyberChef, the goal of this project is to create a repository full of tips, advice, tools, links to favourite resources, and so much more.
 
-Whether you're at the start of your cyber journey, have played a few CTFs and are still building your skills, or are an experienced professional in the field - hopefully, you'll find something new here!
-
-Inspired by GCHQ's open-source project CyberChef, the goal is to create a repository full of tips, advice, tools, links, and so much more. Pooling together the incredible knowledge base and skill-set of everyone in the cyber security field.
-
-Chances are there's just the tool you're looking for out there, but without the right pointer from a teammate or stumbling across the perfect writeup, you may never come across it. This project hopes to solve this problem.
+It's the contributions and knowledge of many that will help this to become a valuable resource - benefiting those at the start of their cyber careers, building their existing CTF skills, or even seasoned professionals looking for new tooling inspiration. So please don't hesitate to contribute!
 
 ## Pages
 - [Writeups](https://github.com/qwerty-the-fish/cyber-team-toolkit/blob/main/writeups.md)
@@ -16,24 +12,16 @@ Chances are there's just the tool you're looking for out there, but without the 
 
 ## The Goal
 
-As you can tell, there isn't much content here at the moment. The goal is to change that though!
+Looking for inspiration of what to contribute?
 
-I would love for this to become a source of useful information, including:
+- a how-to guide on a specific tool
+- favourite CTF writeups
+- approaches to specific CTF question categories
+- favourite training resources
+- certifications worth earning
+- communities and events you love being a part of
+- and much, much more!
 
-- links and quick guides to tools/software
-- links to writeups you've found especially useful
-- tips and tricks for specific types of CTF questions (and CTFs in general)!
-- links to any training resources you found interesting
-- links to certifications worth giving a go
-- links to any related communities that people might want to join to meet others in the field
-- and much, much more...
+## How To: Contribute
 
-It's ambitious I know, and whilst I hope to update it with my own tips and tricks over time, any contributions (no matter how small) would be deeply appreciated. 
-
-## I'd like to join as an 'admin'
-
-As much as I'd love to keep the repository as open as possible - I think we all know the potential for unwanted spam... Unfortunately, this means I have to set up a PR process where changes need approval before they can be merged. Fancy helping out with approving any PRs? Or even helping to grow this project? Let me know!
-
-## I would like to contribute
-
-Amazing! Everything helps - whether it's a link to a useful writeup you came across, a tip for a tool already mentioned, or perhaps an entirely new tool not listed here.
+Amazing! Every contribution is greatly appreciated - from fixing a typo to contributing a new guide. Simply clone the repo, make your changes, and submit a pull request.

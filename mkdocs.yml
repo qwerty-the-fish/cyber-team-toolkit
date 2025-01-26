@@ -1,5 +1,17 @@
 site_name: Cyber Team Toolkit
+
 theme:
   name: terminal
+
 extra_css:
   - extra_styling.css
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition: {}
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - callouts

@@ -1,21 +1,81 @@
 :root {
-    --page-width: 80em; 
-}
+    --page-width: 80em;
+    --background-color: #1E201E;
+    --invert-font-color: #333;
+    --font-color: #ddd;
 
-.terminal-mkdocs-main-grid {
-    grid-column-gap: 8em;
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-top: 8%;
+    }
+
+    code {
+        color: #c8c9c8;
+        text-emphasis: bolder;
+        background-color: #4A4C4A;
+        padding: 0.1em;
+    }
 }
 
 li {
     margin-bottom: 15px;
 }
 
-#terminal-mkdocs-side-panel {
-    background-color: #eee;
-    padding: 5% 10%;
-    margin-top: 15px;
+.terminal-mkdocs-main-grid {
+    grid-column-gap: 8em;
 }
 
 .terminal-mkdocs-side-nav-li-ul {
     margin-top: 10px;
+}
+
+/* .terminal-mkdocs-side-nav-item {
+    color: #5C7285;
+} */
+
+.admonition,
+.admonition.definition,
+.admonition.note {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 0.5em;
+
+    p {
+        margin: 0.5em;
+    }
+
+    a {
+        color: darkblue;
+    }
+
+    table, th, td {
+        border-color: #000;
+        color: #3C3D37;
+    }
+
+    .admonition-title {
+        font-size: 18px;
+        margin: 0.5em;
+        color: #3C3D37;
+        font-weight: bolder;
+    }
+}
+
+.admonition.note {
+    background-color: #697565;
+}
+
+.admonition.definition {
+    background-color: #A6CDC6;
+    color: #000;
+}
+
+#terminal-mkdocs-side-panel {
+    background-color: #3C3D37;
+    padding: 5% 10%;
+    margin-top: 15px;
 }

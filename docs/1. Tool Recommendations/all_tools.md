@@ -2,7 +2,10 @@
 
 With so many useful tools out there, it can be challenging to know where to begin. The following recommendations are broken down by purpose/category.
 
-> Adding a new tool? Add it to the appropriate category if it exists - but feel free to add another category if something else would be more suitable!
+!!! note "**Adding a new tool?**"
+    If the existing categories don't quite fit the tool - why not add a new one?
+
+---
 
 ## General
 - [CyberChef](https://gchq.github.io/CyberChef/) - a toolkit with a host of options, from cryptography tools to image editing tools to networking tools
@@ -14,7 +17,9 @@ With so many useful tools out there, it can be challenging to know where to begi
 - [GTFOBins](https://gtfobins.github.io/) - a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems
 - [Android Debug Bridge](https://developer.android.com/tools/adb) - CLI tool that lets you communicate with an Android device
     - [additional information](https://github.com/qwerty-the-fish/cyber-team-toolkit/blob/main/tools/adb.md)
-- [Frida](https://frida.re/) - dynamic instrumentation toolkit for interacting with black box processes  
+- [Frida](https://frida.re/) - dynamic instrumentation toolkit for interacting with black box processes
+
+---
 
 ## Web Exploitation
 - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/) - an amazing collection of payloads and bypasses for web exploitation
@@ -22,6 +27,8 @@ With so many useful tools out there, it can be challenging to know where to begi
     - As correctly titled, a guide to everything you need to know about fuff: https://codingo.io/tools/ffuf/bounty/2020/09/17/everything-you-need-to-know-about-ffuf.html
 - [PHP Reverse Shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php) - (note: some recent comments regarding this no longer working) - script for triggering a reverse shell setup
 - [BrowserBruter](https://github.com/netsquare/BrowserBruter) - web form fuzzing automation tool
+
+---
 
 ## Binary Exploitation
 - [Ghidra](https://ghidra-sre.org/) - really useful for reverse engineering a binary
@@ -34,6 +41,8 @@ With so many useful tools out there, it can be challenging to know where to begi
     - [feature overview](https://github.com/skylot/jadx/wiki/jadx-gui-features-overview)
 - [dex2jar](https://github.com/pxb1988/dex2jar) - tools to work with Android `.dex` files and Java 
 - [Bytecode Viewer](https://bytecodeviewer.com/) - open-source java reverse engineering suite (lets you see the Java and smali code side-by-side)
+
+---
 
 ## Network Exploitation
 - [Burp Suite](https://portswigger.net/burp) - analyse network traffic and intercept/inspect/alter/drop/etc. packets
@@ -48,12 +57,16 @@ With so many useful tools out there, it can be challenging to know where to begi
 - [NetworkMiner](https://www.netresec.com/?page=NetworkMiner) - PCAP file analyser - can be a useful first-step before using wireshark
     - note: the free version does not support `.PCAPNG` files so if you need to convert one: "open the PcapNG file in Wireshark and click “File, Save As...”. Then select the “Wireshark/tcpdump/... - pcap” option in the “Save as type” drop-down list." (https://www.netresec.com/?page=Blog&month=2012-12&post=HowTo-handle-PcapNG-files)
 
+---
+
 ## Forensics
 - [exiftool](https://exiftool.org/) - read, edit, and write metadata
 - [bkcrack](https://github.com/kimci86/bkcrack/tree/master) - exploiting password protected ZIP files
     - uses Biham and Kocher's known plaintext attack on the PKZIP stream cipher ([paper outlining the attack](https://doi.org/10.1007/3-540-60590-8_12))
     - useful tutorial page: https://github.com/kimci86/bkcrack/blob/master/example/tutorial.md
 - [binwalk](https://github.com/ReFirmLabs/binwalk) - analyse a file and search for potential embedded files
+
+---
 
 ### Images / Audio
 - [Aperi'Solve](https://aperisolve.fr/) - great tool for image analysis
@@ -64,9 +77,13 @@ With so many useful tools out there, it can be challenging to know where to begi
 - [MP3Stego](https://www.petitcolas.net/steganography/mp3stego/) - audio steganography
 - [Split a GIF](https://ezgif.com/split) - sometimes you might need to split a GIF into its individual frames
 
+---
+
 ### Memory
 - [Volatility](https://github.com/volatilityfoundation/volatility3) - framework for extracting digital artifacts from volatile memory (RAM) samples
     - additional information: https://github.com/volatilityfoundation/volatility/wiki/Command-Reference
+
+---
  
 ## Cryptography / Encoding
 - [base64decode](base64decode.org) - can also just use CyberChef but this makes charcode conversion easier
@@ -74,6 +91,8 @@ With so many useful tools out there, it can be challenging to know where to begi
 - [Cipher Identifier](https://www.boxentriq.com/code-breaking/cipher-identifier) - also attempts to identify the cipher used with varying success
 - [dcode: Caesar cipher solver](https://www.dcode.fr/caesar-cipher) - tries all possible shifts and highlights the most likely ones
 - [Crackstation](https://crackstation.net/) - password hash cracker
+
+---
 
 ## OSINT
 - [OSINT Framework](https://osintframework.com/) - an incredible collection of OSINT tools

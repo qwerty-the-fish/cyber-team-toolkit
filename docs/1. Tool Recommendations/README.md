@@ -1,19 +1,22 @@
-# Introduction
+# Tool Recommendations
 
-Got a tool you couldn't live without in a CTF? Share it here!
+- **Got a tool to recommend?**
+    - Add any relevant links and a short summary to the appropriate category in `all_tools.md`.
+    - Links to any examples of how to use the tool are particularly helpful.
 
-Make sure to add it to `all_tools.md` under the appropriate category - any relevant links and a short summary is perfect.
-
-If you want to provide additional information (have you got some great tips for how to use the tool for different tasks?) - why not create a new file here and link it back to your entry in `all_tools.md`?
-
-This would be extremely valuable as sometimes the official documentation can be a little confusing (especially for a beginner!) and seeing an example of how to use the tool can be invaluable.
+- **Got more to say about it?**
+    - Create a new `.md` file in this directory with any additional information you wish to add.
+    - This might include: breakdown of useful commands, screenshots showing how to use it, installation tips, etc.
+    - Link back to it under your entry in `all_tools.md`.
 
 ## Pages
 - [Tools and Resources](https://github.com/qwerty-the-fish/cyber-team-toolkit/blob/main/tools/all.md)
 - [Popular Collections](https://github.com/qwerty-the-fish/cyber-team-toolkit/blob/main/tools/collections.md)
 
+## Tool-Specific Guides
+- [Android Debugging Bridge (adb)](https://github.com/qwerty-the-fish/cyber-team-toolkit/blob/main/docs/1.%20Tool%20Recommendations/guide%20-%20adb.md)
+
 ## Pages Coming Soon
-### (if you have some great ideas for these - please feel free to add them yourself!)
 - Postman
 - Wireshark
 - 010Editor
