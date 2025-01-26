@@ -1,4 +1,4 @@
-# Other Collections
+# Existing Collections
 
 Lots of resources means lots of curated collections. Here are some that come highly recommended:
 

@@ -1,4 +1,4 @@
-# Tools
+# Introduction
 
 Got a tool you couldn't live without in a CTF? Share it here!
 

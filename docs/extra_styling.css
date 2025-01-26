@@ -1,0 +1,21 @@
+:root {
+    --page-width: 80em; 
+}
+
+.terminal-mkdocs-main-grid {
+    grid-column-gap: 8em;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+#terminal-mkdocs-side-panel {
+    background-color: #eee;
+    padding: 5% 10%;
+    margin-top: 15px;
+}
+
+.terminal-mkdocs-side-nav-li-ul {
+    margin-top: 10px;
+}

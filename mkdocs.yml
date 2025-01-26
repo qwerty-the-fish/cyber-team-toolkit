@@ -1,0 +1,5 @@
+site_name: Cyber Team Toolkit
+theme:
+  name: terminal
+extra_css:
+  - extra_styling.css
