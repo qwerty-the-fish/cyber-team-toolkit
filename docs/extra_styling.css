@@ -1,28 +1,28 @@
 :root {
     --page-width: 80em;
     --background-color: #1E201E;
-    --invert-font-color: #333;
     --font-color: #ddd;
 
     h1 {
         font-size: 22px;
+        color: #79628A;
     }
 
     h2 {
         font-size: 20px;
         margin-top: 8%;
-        color: #818C78;
+        color: #7F557D;
     }
 
     h3 {
         font-size: 18px;
         margin-top: 4%;
-        color: #697565;   
+        color: #734966;   
     }
 
     h4 {
         text-emphasis: bolder;
-        color: #5C7285;
+        color: #673C4F;
     }
 
     code {
@@ -43,19 +43,30 @@
     li {
         margin-bottom: 15px;
     }
+    
+    a {
+        color: #83B5D1;
+    }
 }
 
 .terminal-mkdocs-main-grid {
     grid-column-gap: 8em;
 }
 
+.terminal-mkdocs-side-nav-li {
+    span {
+        font-weight: 700;
+        color: #fff;
+    }
+}
+
 .terminal-mkdocs-side-nav-li-ul {
     margin-top: 10px;
 }
 
-/* .terminal-mkdocs-side-nav-item {
-    color: #5C7285;
-} */
+.terminal-mkdocs-side-nav-item {
+    color: #83B5D1;
+}
 
 .admonition,
 .admonition.definition,
@@ -70,7 +81,7 @@
     }
 
     a {
-        color: darkblue;
+        color: #673C4F;
     }
 
     table, th, td {
@@ -87,11 +98,11 @@
 }
 
 .admonition.note {
-    background-color: #697565;
+    background-color: #7483A5;
 }
 
 .admonition.definition {
-    background-color: #A6CDC6;
+    background-color: #98C2D9;
     color: #000;
 }
 
@@ -101,7 +112,7 @@
 }
 
 #terminal-mkdocs-side-panel {
-    background-color: #3C3D37;
+    background-color: #734966;
     padding: 5% 10%;
     margin-top: 15px;
 }
