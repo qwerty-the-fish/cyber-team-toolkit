@@ -5,12 +5,24 @@
     --font-color: #ddd;
 
     h1 {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 20px;
         margin-top: 8%;
+        color: #818C78;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin-top: 4%;
+        color: #697565;   
+    }
+
+    h4 {
+        text-emphasis: bolder;
+        color: #5C7285;
     }
 
     code {
@@ -19,10 +31,18 @@
         background-color: #4A4C4A;
         padding: 0.1em;
     }
-}
 
-li {
-    margin-bottom: 15px;
+    table, th, td {
+        padding: 1em;
+    }
+
+    ins {
+        color: #5C7285;
+    }
+
+    li {
+        margin-bottom: 15px;
+    }
 }
 
 .terminal-mkdocs-main-grid {
@@ -39,6 +59,7 @@ li {
 
 .admonition,
 .admonition.definition,
+.admonition.tool,
 .admonition.note {
     margin-top: 3em;
     margin-bottom: 3em;
@@ -71,6 +92,11 @@ li {
 
 .admonition.definition {
     background-color: #A6CDC6;
+    color: #000;
+}
+
+.admonition.tool {
+    background-color: #E2E0C8;
     color: #000;
 }
 
